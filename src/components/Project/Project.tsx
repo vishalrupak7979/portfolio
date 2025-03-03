@@ -121,7 +121,7 @@ export function Project() {
               </svg>
               <div className="project-links">
                 <a
-                  href="https://github.com/CodeVinayak/Jupyter-Notebook/blob/main/Credit%20Risk%20Analysis/Credit_Risk_Analysis.ipynb"
+                  href="https://service.zita.ai/"
                   target="\_blank"
                   rel="noreferrer"
                 >
