@@ -288,30 +288,30 @@ Optimized with a clean grid layout for smooth performance across all devices.
           </div>
         </ScrollAnimation>
 
-        {/* <ScrollAnimation animateIn="flipInX">
+        <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
               <div className="project-links">
-                <a href="https://justmedicalbooks.com/" target="_blank" rel="noreferrer">
+                <a href="https://proshopshoping.netlify.app/" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3>MedicalBooks - Book Selling Site</h3>
+              <h3>Proshop</h3>
               <p>
-                This website sells medical books online and is popular with medical students. Medical students use it to buy books and acquire knowledge. The site has all kinds of medical books in one place.
+              A full-stack MERN e-commerce application built with React, Redux, and Bootstrap/Tailwind CSS. It features product listing, shopping cart, and checkout with Stripe payment gateway integration. Includes user authentication using JWT, role-based access (admin can manage orders and products, users can browse and purchase), and order management. Optimized with a responsive layout for seamless performance across all devices, along with SPA routing handled via Netlify redirects. Backend deployed on Render and frontend on Netlify, ensuring secure environment management and smooth client-server interaction.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Wordpress</li>
-                <li>Woocommerce</li>
+              <li>MERN Stack</li>
+              <li>Redux</li>
               </ul>
             </footer>
           </div>
-        </ScrollAnimation> */}
+        </ScrollAnimation>
 
         {/* <ScrollAnimation animateIn="flipInX">
           <div className="project">
