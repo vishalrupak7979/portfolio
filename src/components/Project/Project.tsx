@@ -21,6 +21,44 @@ export function Project() {
                 strokeLinecap="round"
                 strokeLinejoin="round"
               >
+                <title>Folder</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+            </header>
+            <div className="body">
+              <h3>Taqadom – Enterprise HRMS</h3>
+              <p>
+                Leading frontend development of Taqadom, an enterprise Human
+                Resource Management System built with React.js. Includes
+                role-based access control, centralized currency management
+                across Payroll, Reports, and Payslips, a drag-and-drop
+                customizable dashboard, and a configurable contract creation
+                module.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Reactjs</li>
+                <li>Redux Toolkit</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#23ce6b"
+                strokeWidth="1"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
                 {" "}
                 <title>Folder</title>{" "}
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>{" "}
@@ -83,10 +121,10 @@ export function Project() {
             <div className="body">
               <h3>Zita ATS Website – Feature Showcase & Knowledge Base</h3>
               <p>
-                Developed a website for Zita ATS to showcase its features and
-                provide a knowledge base for users. Built with React.js, the
-                website was later migrated to Next.js for server-side rendering
-                (SSR) and improved performance. Additionally, Node Mailer was
+                Migrated the Zita ATS website from Wix to React.js within two
+                months to showcase its features and provide a knowledge base for
+                users. The website was later migrated to Next.js for server-side
+                rendering (SSR) and improved performance. Additionally, Node Mailer was
                 integrated to handle inquiries from the Contact Us form
                 efficiently.
               </p>
@@ -122,7 +160,7 @@ export function Project() {
               <div className="project-links">
                 <a
                   href="https://service.zita.ai/"
-                  target="\_blank"
+                  target="_blank"
                   rel="noreferrer"
                 >
                   <img src={externalLink} alt="Visit site" />
@@ -301,13 +339,14 @@ Optimized with a clean grid layout for smooth performance across all devices.
             <div className="body">
               <h3>Proshop</h3>
               <p>
-              A full-stack MERN e-commerce application built with React, Redux, and Bootstrap/Tailwind CSS. It features product listing, shopping cart, and checkout with Stripe payment gateway integration. Includes user authentication using JWT, role-based access (admin can manage orders and products, users can browse and purchase), and order management. Optimized with a responsive layout for seamless performance across all devices, along with SPA routing handled via Netlify redirects. Backend deployed on Render and frontend on Netlify, ensuring secure environment management and smooth client-server interaction.
+              A full-stack MERN e-commerce application built with React, Redux Toolkit, Material UI, and Bootstrap. It features product listing, shopping cart, and checkout with Stripe payment gateway integration. Includes user authentication using JWT, role-based access (admin can manage orders and products, users can browse and purchase), and order management. Optimized with a responsive layout for seamless performance across all devices, along with SPA routing handled via Netlify redirects. Backend deployed on Render and frontend on Netlify, ensuring secure environment management and smooth client-server interaction.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
               <li>MERN Stack</li>
-              <li>Redux</li>
+              <li>Redux Toolkit</li>
+              <li>Stripe</li>
               </ul>
             </footer>
           </div>

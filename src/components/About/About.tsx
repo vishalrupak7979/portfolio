@@ -4,6 +4,7 @@ import wordpress from "../../assets/wordpress.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
+import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
@@ -18,11 +19,10 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            I am a Frontend Developer with nearly 2 years of experience in
+            I am a Senior Frontend Developer with 3+ years of experience in
             building modern, responsive, and high-performance web applications.
-            My expertise includes React.js, Next.js, JavaScript, HTML, CSS, and
-            Tailwind CSS, allowing me to create seamless and interactive user
-            experiences.
+            I currently work at Transound Systems, where I lead frontend
+            development of Taqadom, an enterprise HRMS, using React.js.
           </p>
         </ScrollAnimation>
         <ScrollAnimation
@@ -31,18 +31,19 @@ export function About() {
           style={{ marginTop: "2rem", marginBottom: "2rem" }}
         >
           <p>
-            Beyond custom development, I have experience in server-side
-            rendering (SSR) with Next.js, API integrations, performance
-            optimization, and CMS platforms like WordPress. I am passionate
-            about building scalable and efficient applications that enhance user
-            engagement.
+            My expertise includes React.js, Next.js, TypeScript, JavaScript, and
+            Redux Toolkit, with hands-on full-stack experience across the MERN
+            stack, including Node.js, Express.js, MongoDB, REST APIs, and JWT
+            authentication. I have also worked on an AI-powered Applicant
+            Tracking System, server-side rendering (SSR), role-based access
+            control, and performance optimization.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
-            I am currently seeking new opportunities to collaborate with
-            innovative teams and contribute my skills. If you're looking for a
-            dedicated React & Next.js developer to bring your vision to life,
+            I am passionate about building scalable and efficient applications
+            and enjoy collaborating with innovative teams. If you're looking for
+            a dedicated React & Next.js developer to bring your vision to life,
             let's connect!
           </p>
         </ScrollAnimation>
@@ -67,11 +68,11 @@ export function About() {
             </ScrollAnimation>
           </div>
         
-          {/* <div className="hability">
+          <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.16 * 1000}>
               <img src={nodeIcon} alt="Node" />
             </ScrollAnimation>
-          </div> */}
+          </div>
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.17 * 1000}>
               <img src={htmlIcon} alt="Html" />

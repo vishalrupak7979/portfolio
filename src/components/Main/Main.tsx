@@ -2,6 +2,7 @@ import Particles from "react-tsparticles"
 import { Container } from "./styles";
 import { Hero } from "../Hero/Hero";
 import { About } from "../About/About";
+import { Experience } from "../Experience/Experience";
 import { Contact } from "../Contact/Contact";
 import { Project } from "../Project/Project";
 import wordpress from "../../assets/wordpress.svg";
@@ -257,6 +258,7 @@ export function Main() {
       />
       <Hero></Hero>
       <About></About>
+      <Experience></Experience>
       <Project></Project>
       <Contact></Contact>
     </Container>
