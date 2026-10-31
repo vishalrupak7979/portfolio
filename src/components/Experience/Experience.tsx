@@ -3,15 +3,15 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 const jobs = [
   {
-    role: "Senior Frontend Developer",
-    company: "Transound Systems Pvt Ltd",
+    role: "Frontend Developer",
+    company: "Transond Systems Pvt Ltd – Taqadom HRMS",
     period: "Apr 2025 – Present",
     points: [
-      "Leading the frontend team building Taqadom, an enterprise Human Resource Management System (HRMS), using React.js.",
-      "Implemented Role-Based Access Control (RBAC) across the application for role-specific access to modules, features, and user actions.",
-      "Built a centralized Currency Management module that reflects the base currency across Payroll, Reports, and Payslips.",
-      "Developed a customizable drag-and-drop dashboard, along with filtering, group-by, and reporting features.",
-      "Built a custom contract creation module with configurable field order and labels.",
+      "Lead a team of 4 frontend developers: own UI architecture, review code, and mentor on reusable-component practices.",
+      "Developed enterprise HRMS modules in React.js using a reusable, scalable component architecture.",
+      "Implemented Role-Based Access Control (RBAC) across the HRMS for module, feature, and user-action permissions.",
+      "Built a centralized Currency Management module syncing currency values across Payroll, Reports, and Payslips.",
+      "Developed customizable dashboards with drag-and-drop widgets and dynamic, personalized layouts.",
     ],
   },
   {
@@ -19,10 +19,10 @@ const jobs = [
     company: "Sense7AI",
     period: "Apr 2023 – Mar 2025",
     points: [
-      "Developed the Weightage Matching and Job Description Template modules for Zita, an AI-powered Applicant Tracking System.",
-      "Migrated the Zita website from Wix to React.js within two months, improving performance and scalability.",
-      "Built a standalone React.js dashboard to visualize API usage and analytics.",
-      "Migrated the InnovSpace website to Next.js with server-side rendering and a Node.js backend for mailing services.",
+      "Developed React.js frontend modules for Zita, an AI-powered Applicant Tracking System (ATS), focusing on reusable components and scalable UI development.",
+      "Built Job Description Template and Candidate Weightage Matching modules, and a React.js dashboard for API usage analytics.",
+      "Migrated the Zita website from Wix to React.js in two months, improving performance and maintainability.",
+      "Migrated the InnovSpace website to Next.js with SSR and integrated Node.js mailing services.",
     ],
   },
 ];

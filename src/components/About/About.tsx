@@ -19,10 +19,10 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            I am a Senior Frontend Developer with 3+ years of experience in
-            building modern, responsive, and high-performance web applications.
-            I currently work at Transound Systems, where I lead frontend
-            development of Taqadom, an enterprise HRMS, using React.js.
+            I am a Frontend Engineer with 3.5+ years of experience building
+            scalable web applications with React.js, Next.js, and JavaScript. I
+            currently work at Transond Systems, where I lead a 4-member frontend
+            team building Taqadom, an enterprise HRMS platform.
           </p>
         </ScrollAnimation>
         <ScrollAnimation
@@ -31,12 +31,10 @@ export function About() {
           style={{ marginTop: "2rem", marginBottom: "2rem" }}
         >
           <p>
-            My expertise includes React.js, Next.js, TypeScript, JavaScript, and
-            Redux Toolkit, with hands-on full-stack experience across the MERN
-            stack, including Node.js, Express.js, MongoDB, REST APIs, and JWT
-            authentication. I have also worked on an AI-powered Applicant
-            Tracking System, server-side rendering (SSR), role-based access
-            control, and performance optimization.
+            Previously, I built an AI-powered Applicant Tracking System at
+            Sense7AI. I am strong in frontend architecture, reusable components,
+            role-based access control (RBAC), and performance optimization, with
+            working knowledge of Node.js and MongoDB.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>

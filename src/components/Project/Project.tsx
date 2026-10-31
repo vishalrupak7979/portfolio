@@ -28,7 +28,7 @@ export function Project() {
             <div className="body">
               <h3>Taqadom – Enterprise HRMS</h3>
               <p>
-                Leading frontend development of Taqadom, an enterprise Human
+                Leading a 4-member frontend team on Taqadom, an enterprise Human
                 Resource Management System built with React.js. Includes
                 role-based access control, centralized currency management
                 across Payroll, Reports, and Payslips, a drag-and-drop
