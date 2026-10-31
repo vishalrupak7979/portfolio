@@ -1,7 +1,7 @@
 "use client"
 
 import { Container } from "./styles";
-import reactIcon from "../../assets/react-icon.svg";
+import nextIcon from "../../assets/nextjs-icon.svg";
 import linkedin from "../../assets/linkedin.svg";
 import githubIcon from "../../assets/github.svg";
 import whatsapp from "../../assets/whatsapp.svg";
@@ -12,7 +12,7 @@ export function Footer() {
     <Container className="footer">
       <div>
         <p>
-          This Website was made with <img src={reactIcon.src} alt="React" />
+          This Website was made with <img src={nextIcon.src} alt="Next.js" />
           {/* <span>❤️</span> */}
         </p>
       </div>

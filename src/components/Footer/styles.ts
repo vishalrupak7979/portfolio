@@ -21,7 +21,6 @@ export const Container = styled.footer`
     gap: 0.5rem;
     img{
       width: 2.6rem;
-      animation: spinning 5s infinite linear;
     }
   }
   .social-media{
@@ -36,15 +35,6 @@ export const Container = styled.footer`
     }
   }
 
-
-  @keyframes spinning {
-    0%{
-      transform: rotate(0);
-    }
-    100%{
-      transform: rotate(360deg);
-    }
-  }
 
   @media(max-width: 800px){
     padding: 4rem 10rem;
