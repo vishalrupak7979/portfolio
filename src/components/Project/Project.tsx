@@ -63,15 +63,6 @@ export function Project() {
                 <title>Folder</title>{" "}
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>{" "}
               </svg>
-              <div className="project-links">
-                <a
-                  href="https://www.app.zita.ai/login/?next=/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img src={externalLink.src} alt="Visit site" />
-                </a>{" "}
-              </div>
             </header>
             <div className="body">
               <h3>AI-Powered Recruitment Software – Zita ATS</h3>
@@ -157,15 +148,6 @@ export function Project() {
                 <title>Folder</title>
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
               </svg>
-              <div className="project-links">
-                <a
-                  href="https://service.zita.ai/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img src={externalLink.src} alt="Visit site" />
-                </a>
-              </div>
             </header>
             <div className="body">
               <h3>Zita Standalone API – Usage & Analytics Dashboard</h3>
