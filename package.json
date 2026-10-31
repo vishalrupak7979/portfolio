@@ -2,59 +2,31 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build"
+  },
   "dependencies": {
     "@formspree/react": "^2.2.4",
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^12.0.0",
-    "@testing-library/user-event": "^13.2.1",
-    "@types/jest": "^27.0.1",
-    "@types/node": "^16.7.13",
-    "@types/react": "^17.0.20",
-    "@types/react-dom": "^17.0.9",
     "@vercel/analytics": "^1.4.1",
-    "react": "^17.0.2",
+    "next": "16.4.3",
+    "react": "^18.3.1",
     "react-animate-on-scroll": "^2.1.5",
-    "react-dom": "^17.0.2",
+    "react-dom": "^18.3.1",
     "react-google-recaptcha": "^2.1.0",
-    "react-router-dom": "^6.2.1",
-    "react-router-hash-link": "^2.4.3",
-    "react-scripts": "^5.0.1",
     "react-toastify": "^8.1.0",
     "react-tsparticles": "^1.37.5",
     "styled-components": "^5.3.3",
-    "typescript": "^4.4.2",
-    "validator": "^13.7.0",
-    "web-vitals": "^2.1.0"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "validator": "^13.7.0"
   },
   "devDependencies": {
+    "@types/node": "^22.20.5",
+    "@types/react": "^18.3.31",
     "@types/react-animate-on-scroll": "^2.1.5",
+    "@types/react-dom": "^18.3.7",
     "@types/react-google-recaptcha": "^2.1.2",
-    "@types/react-router-hash-link": "^2.4.4",
     "@types/styled-components": "^5.1.18",
-    "@types/validator": "^13.7.1"
+    "@types/validator": "^13.7.1",
+    "typescript": "^5.9.3"
   }
 }

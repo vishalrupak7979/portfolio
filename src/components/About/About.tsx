@@ -51,52 +51,52 @@ export function About() {
         <div className="hard-skills">
         <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
-              <img src={jsIcon} alt="JavaScript" />
+              <img src={jsIcon.src} alt="JavaScript" />
             </ScrollAnimation>
           </div>
       
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
-              <img src={reactIcon} alt="React" />
+              <img src={reactIcon.src} alt="React" />
             </ScrollAnimation>
           </div>
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.14 * 1000}>
-              <img src={typescriptIcon} alt="Typescript" />
+              <img src={typescriptIcon.src} alt="Typescript" />
             </ScrollAnimation>
           </div>
         
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.16 * 1000}>
-              <img src={nodeIcon} alt="Node" />
+              <img src={nodeIcon.src} alt="Node" />
             </ScrollAnimation>
           </div>
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.17 * 1000}>
-              <img src={htmlIcon} alt="Html" />
+              <img src={htmlIcon.src} alt="Html" />
             </ScrollAnimation>
           </div>
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.18 * 1000}>
-              <img src={cssIcon} alt="Css" />
+              <img src={cssIcon.src} alt="Css" />
             </ScrollAnimation>
           </div>
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
-              <img src={boostrapIcon} alt="bootstrap" />
+              <img src={boostrapIcon.src} alt="bootstrap" />
             </ScrollAnimation>
           </div>
        
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.1 * 1000}>
-              <img src={wordpress} alt="Wordpress" />
+              <img src={wordpress.src} alt="Wordpress" />
             </ScrollAnimation>
           </div>
         </div>
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.2 * 1000}>
-          <img src={vishal} alt="Vishal Rupak" />
+          <img src={vishal.src} alt="Vishal Rupak" />
         </ScrollAnimation>
       </div>
     </Container>

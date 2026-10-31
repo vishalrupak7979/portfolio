@@ -1,3 +1,5 @@
+"use client"
+
 import Particles from "react-tsparticles"
 import { Container } from "./styles";
 import { Hero } from "../Hero/Hero";
@@ -150,32 +152,32 @@ export function Main() {
               },
               "image": [
                 {
-                  "src": boostrapIcon,
+                  "src": boostrapIcon.src,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": cssIcon,
+                  "src": cssIcon.src,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": wordpress,
+                  "src": wordpress.src,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": shopify,
+                  "src": shopify.src,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": htmlIcon,
+                  "src": htmlIcon.src,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": jsIcon,
+                  "src": jsIcon.src,
                   "width": 20,
                   "height": 20
                 },
@@ -185,22 +187,22 @@ export function Main() {
                 //   "height": 20
                 // },
                 {
-                  "src": nodeIcon,
+                  "src": nodeIcon.src,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": reactIcon,
+                  "src": reactIcon.src,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": sassIcon,
+                  "src": sassIcon.src,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": typescriptIcon,
+                  "src": typescriptIcon.src,
                   "width": 20,
                   "height": 20
                 },
@@ -210,7 +212,7 @@ export function Main() {
                 //   "height": 20
                 // },
                 {
-                  "src": vueIcon,
+                  "src": vueIcon.src,
                   "width": 20,
                   "height": 20
                 },

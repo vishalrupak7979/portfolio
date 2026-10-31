@@ -1,3 +1,5 @@
+"use client"
+
 import { Container } from "./styles";
 import reactIcon from "../../assets/react-icon.svg";
 import linkedin from "../../assets/linkedin.svg";
@@ -10,7 +12,7 @@ export function Footer() {
     <Container className="footer">
       <div>
         <p>
-          This Website was made with <img src={reactIcon} alt="React" />
+          This Website was made with <img src={reactIcon.src} alt="React" />
           {/* <span>❤️</span> */}
         </p>
       </div>
@@ -20,21 +22,21 @@ export function Footer() {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={linkedin} alt="Linkedin" />
+          <img src={linkedin.src} alt="Linkedin" />
         </a>
         <a
           href="https://github.com/vishalrupak7979"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={githubIcon} alt="GitHub" />
+          <img src={githubIcon.src} alt="GitHub" />
         </a>
         <a
           href="https://api.whatsapp.com/send/?phone=%2B919360165553&text=Hello+vishal"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={whatsapp} alt="Whatsapp" />
+          <img src={whatsapp.src} alt="Whatsapp" />
         </a>
 
         <a
@@ -42,7 +44,7 @@ export function Footer() {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={instagramIcon} alt="Instagram" />
+          <img src={instagramIcon.src} alt="Instagram" />
         </a>
       </div>
     </Container>

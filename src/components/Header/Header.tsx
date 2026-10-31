@@ -1,8 +1,7 @@
+'use client'
+
 import { Container } from './styles'
-import { BrowserRouter as Router } from 'react-router-dom'
-import { NavHashLink} from 'react-router-hash-link'
 import { useState } from 'react'
-import Resume from '../../assets/vishal_rupak_resume.pdf'
 export function Header() {
   const [isActive, setActive] = useState(false)
   function toggleTheme() {
@@ -14,46 +13,43 @@ export function Header() {
   }
   return (
     <Container className="header-fixed">
-      <Router>
-
-        <input
-          onChange={toggleTheme}
-          className="container_toggle"
-          type="checkbox"
-          id="switch"
-          name="mode"
-        />
-        <label htmlFor="switch">Toggle</label>
-        <nav className={isActive ? 'active' : ''}>
-          <NavHashLink smooth to="#home" onClick={closeMenu}>
-            Home
-          </NavHashLink>
-          <NavHashLink smooth to="#about" onClick={closeMenu}>
-            About me
-          </NavHashLink>
-          <NavHashLink smooth to="#experience" onClick={closeMenu}>
-            Experience
-          </NavHashLink>
-          <NavHashLink smooth to="#project" onClick={closeMenu}>
-            Project
-          </NavHashLink>
-          <NavHashLink smooth to="#contact" onClick={closeMenu}>
-            Contact
-          </NavHashLink>
-          <a href={Resume} download className="button">
-            Resume
-          </a>
-        </nav>
-        <div
-          aria-expanded={isActive ? 'true' : 'false'}
-          aria-haspopup="true"
-          aria-label={isActive ? 'Fechar menu' : 'Abrir menu'}
-          className={isActive ? 'menu active' : 'menu'}
-          onClick={() => {
-            setActive(!isActive)
-          }}
-        ></div>
-      </Router>
+      <input
+        onChange={toggleTheme}
+        className="container_toggle"
+        type="checkbox"
+        id="switch"
+        name="mode"
+      />
+      <label htmlFor="switch">Toggle</label>
+      <nav className={isActive ? 'active' : ''}>
+        <a href="#home" onClick={closeMenu}>
+          Home
+        </a>
+        <a href="#about" onClick={closeMenu}>
+          About me
+        </a>
+        <a href="#experience" onClick={closeMenu}>
+          Experience
+        </a>
+        <a href="#project" onClick={closeMenu}>
+          Project
+        </a>
+        <a href="#contact" onClick={closeMenu}>
+          Contact
+        </a>
+        <a href="/vishal_rupak_resume.pdf" download className="button">
+          Resume
+        </a>
+      </nav>
+      <div
+        aria-expanded={isActive ? 'true' : 'false'}
+        aria-haspopup="true"
+        aria-label={isActive ? 'Fechar menu' : 'Abrir menu'}
+        className={isActive ? 'menu active' : 'menu'}
+        onClick={() => {
+          setActive(!isActive)
+        }}
+      ></div>
     </Container>
   )
 }
